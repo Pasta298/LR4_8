@@ -13,7 +13,7 @@ public class SaveAviaCompanyCommand implements Command{
 
     @Override
     public String getKey() {
-        return "print_aviacompany";
+        return "save_aviacompany";
     }
 
     @Override
