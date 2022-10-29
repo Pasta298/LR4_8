@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Створено кістяк програми">
+    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Виправлені деякі помилки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/AddPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/AddPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/DelPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/DelPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/PrintPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/PrintPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Boeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Boeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Douglas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Douglas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Mriya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Mriya.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +58,10 @@
       <option name="presentableId" value="Default" />
       <updated>1666530616707</updated>
       <workItem from="1666530619397" duration="18878000" />
-      <workItem from="1666553951257" duration="188000" />
+      <workItem from="1666553951257" duration="620000" />
+      <workItem from="1666556273301" duration="1201000" />
+      <workItem from="1666736539180" duration="586000" />
+      <workItem from="1666737174332" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="Створено кістяк програми">
       <created>1666553800449</created>
@@ -59,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666553800449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Виправлені деякі помилки">
+      <created>1666554392258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666554392258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Створено кістяк програми" />
-    <option name="LAST_COMMIT_MESSAGE" value="Створено кістяк програми" />
+    <MESSAGE value="Виправлені деякі помилки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Виправлені деякі помилки" />
   </component>
 </project>

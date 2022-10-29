@@ -2,13 +2,11 @@ package menu;
 
 import aviacompany.Aviacompany;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Menu {
-    protected HashMap<String, Command> menuPoints;
-    protected List<String> help;
+    protected Map<String, Command> menuPoints;
+    protected Collection<String> help;
 
     public Menu() {
         this.menuPoints = initMenu();
@@ -17,8 +15,8 @@ public class Menu {
 
     private final Aviacompany aviacompany = new Aviacompany();
 
-    public HashMap<String, Command> initMenu() {
-        HashMap<String, Command> points = new HashMap<>();
+    public Map<String, Command> initMenu() {
+        Map<String, Command> points = new HashMap<>();
 
         Command command = new AddPlaneCommand(aviacompany);
         points.put(command.getKey(), command);
@@ -50,37 +48,9 @@ public class Menu {
         return points;
     }
 
-    public List<String> initHelp() {
-        List<String> points = new ArrayList<>();
-
-        Command command = new AddPlaneCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new DelPlaneCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new PrintPlaneCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new LoadAviaCompanyCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new PrintAviaCompanyCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new SaveAviaCompanyCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new FindPlaneCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new CalculateCapacityCommand(aviacompany);
-        points.add(command.getKey());
-
-        command = new ExitCommand();
-        points.add(command.getKey());
-
-        return points;
+    public Collection<String> initHelp() {
+        Map<String, Command> points = initMenu();
+        return points.keySet();
     }
 
     public void execute(List<String> command) {
