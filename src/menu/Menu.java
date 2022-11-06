@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Menu {
     protected Map<String, Command> menuPoints;
-    protected Collection<String> help;
+    protected List<String> help;
 
     public Menu() {
         this.menuPoints = initMenu();
@@ -48,18 +48,21 @@ public class Menu {
         return points;
     }
 
-    public Collection<String> initHelp() {
-        Map<String, Command> points = initMenu();
-        return points.keySet();
+    public List<String> initHelp() {
+        List<String> args = new ArrayList<>();
+        for (Map.Entry<String, Command> entry : menuPoints.entrySet()) {
+            args.add(entry.getKey() + entry.getValue().getArgs());
+        }
+        return args;
     }
 
-    public void execute(List<String> command) {
-       if (menuPoints.containsKey(command.get(0))) {
-           menuPoints.get(command.get(0)).execute(command);
-       } else if(command.get(0).equals("help")) {
+    public void execute(List<String> commandAndArgs) {
+        String command = commandAndArgs.remove(0);
+       if (menuPoints.containsKey(command)) {
+           menuPoints.get(command).execute(commandAndArgs);
+       } else if(command.equals("help")) {
            System.out.println(help);
-       }
-       else{
+       } else {
            System.out.println("Type another command!");
        }
     }

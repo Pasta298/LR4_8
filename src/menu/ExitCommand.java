@@ -15,7 +15,7 @@ public class ExitCommand implements Command{
 
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда виходу з програми виконалась! ");
+        System.out.println("Exited from program!");
         System.exit(0);
     }
 }

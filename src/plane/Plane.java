@@ -1,7 +1,12 @@
 package plane;
 
-public abstract class Plane {
-    private String name;
+import java.io.Serial;
+import java.io.Serializable;
+
+public abstract class Plane implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 6L;
+    protected String name;
     protected int flightDist;
     protected int fuelConsumption;
     protected int cargoCapacity;
@@ -23,8 +28,8 @@ public abstract class Plane {
         return passCapacity;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
     @Override

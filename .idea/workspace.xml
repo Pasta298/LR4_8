@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Виправлені деякі помилки">
+    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Змінено функцію initHelp в класі Menu&#10;Всі HashMap замінено на Map або на Collection">
+      <change afterPath="$PROJECT_DIR$/src/utilities/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/PlaneUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aviacompany/Aviacompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aviacompany/Aviacompany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu/AddPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/AddPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/CalculateCapacityCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/CalculateCapacityCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu/DelPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/DelPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/FindPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/FindPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/LoadAviaCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/LoadAviaCompanyCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/PrintAviaCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/PrintAviaCompanyCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu/PrintPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/PrintPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/SaveAviaCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/SaveAviaCompanyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Airbus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Airbus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plane/Boeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Boeing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plane/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Cargo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plane/Douglas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Douglas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plane/Mriya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Mriya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plane/Plane.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +72,8 @@
       <workItem from="1666556273301" duration="1201000" />
       <workItem from="1666736539180" duration="586000" />
       <workItem from="1666737174332" duration="269000" />
+      <workItem from="1667031390807" duration="187000" />
+      <workItem from="1667744318432" duration="21331000" />
     </task>
     <task id="LOCAL-00001" summary="Створено кістяк програми">
       <created>1666553800449</created>
@@ -77,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666554392258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Змінено функцію initHelp в класі Menu&#10;Всі HashMap замінено на Map або на Collection">
+      <created>1667031556452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667031556452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Створено кістяк програми" />
     <MESSAGE value="Виправлені деякі помилки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Виправлені деякі помилки" />
+    <MESSAGE value="Змінено функцію initHelp в класі Menu&#10;Всі HashMap замінено на Map або на Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Змінено функцію initHelp в класі Menu&#10;Всі HashMap замінено на Map або на Collection" />
   </component>
 </project>

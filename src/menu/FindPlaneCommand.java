@@ -17,7 +17,11 @@ public class FindPlaneCommand implements Command{
     }
 
     @Override
+    public String getArgs() {
+        return " 'min' 'max'";
+    };
+    @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда виведення літака за діапазоном витрат палива виконалась! ");
+        aviacompany.findPlaneByFuelCons(Integer.parseInt(arguments.get(0)), Integer.parseInt(arguments.get(1)));
     }
 }

@@ -18,6 +18,6 @@ public class CalculateCapacityCommand implements Command{
 
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда обрахунку загальної вантажопідйомності та місткості виконалась! ");
+        aviacompany.calcCapacities();
     }
 }

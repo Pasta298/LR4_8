@@ -1,6 +1,7 @@
 package menu;
 
 import aviacompany.Aviacompany;
+import utilities.PlaneUtils;
 
 import java.util.List;
 
@@ -15,9 +16,17 @@ public class AddPlaneCommand implements Command{
     public String getKey() {
         return "add_plane";
     }
-
+    @Override
+    public String getArgs() {
+        return " 'type' 'name'";
+    };
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда додавання літака виконалась! ");
+        if (arguments.size() == 2) {
+            aviacompany.addPlane(PlaneUtils.createPlane(arguments.get(0), arguments.get(1)));
+            System.out.println("Plane added!");
+        } else {
+            System.out.println("Incorrect arguments!");
+        }
     }
 }

@@ -15,9 +15,13 @@ public class DelPlaneCommand implements Command{
     public String getKey() {
         return "delete_plane";
     }
-
+    @Override
+    public String getArgs() {
+        return " 'name'";
+    };
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда видалення літака виконалась! ");
+        aviacompany.deletePlaneByName(arguments.get(0));
+        System.out.println("Plane deleted from aviacompany!");
     }
 }

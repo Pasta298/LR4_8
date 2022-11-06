@@ -15,9 +15,9 @@ public class PrintAviaCompanyCommand implements Command{
     public String getKey() {
         return "print_aviacompany";
     }
-
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда виведення авіакомпанії виконалась! ");
+        System.out.println("\t\t\tAviacompany planes:");
+        aviacompany.printPlanes();
     }
 }

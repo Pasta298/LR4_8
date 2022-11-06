@@ -1,6 +1,7 @@
 package menu;
 
 import aviacompany.Aviacompany;
+import utilities.FileUtils;
 
 import java.util.List;
 
@@ -15,9 +16,12 @@ public class LoadAviaCompanyCommand implements Command{
     public String getKey() {
         return "load_aviacompany";
     }
-
+    @Override
+    public String getArgs() {
+        return " 'filename'";
+    };
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда завантаження авіакомпанії виконалась! ");
+        aviacompany.copyAviaCompany(FileUtils.loadAviacompany(String.join(" ", arguments)));
     }
 }

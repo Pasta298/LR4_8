@@ -1,7 +1,9 @@
 package menu;
 
 import aviacompany.Aviacompany;
+import utilities.FileUtils;
 
+import java.io.File;
 import java.util.List;
 
 public class SaveAviaCompanyCommand implements Command{
@@ -15,9 +17,12 @@ public class SaveAviaCompanyCommand implements Command{
     public String getKey() {
         return "save_aviacompany";
     }
-
+    @Override
+    public String getArgs() {
+        return " 'filename'";
+    };
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда збереження авіакомпанії виконалась! ");
+        FileUtils.saveAviacompany(aviacompany, String.join(" ", arguments));
     }
 }

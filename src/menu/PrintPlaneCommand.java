@@ -15,9 +15,12 @@ public class PrintPlaneCommand implements Command{
     public String getKey() {
         return "print_plane";
     }
-
+    @Override
+    public String getArgs() {
+        return " 'name'";
+    };
     @Override
     public void execute(List<String> arguments) {
-        System.out.println(" Команда виведення літака виконалась! ");
+        aviacompany.printPlaneByName(arguments.get(0));
     }
 }

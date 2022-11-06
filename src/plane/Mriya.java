@@ -1,8 +1,14 @@
 package plane;
 
-public class Mriya extends Passenger {
+import java.io.Serial;
+import java.io.Serializable;
 
-    public Mriya() {
+public class Mriya extends Passenger implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 4L;
+
+    public Mriya(String name) {
+        super.name = name;
         this.flightDist = 2500;
         this.fuelConsumption = 20;
         this.passCapacity = 100;
