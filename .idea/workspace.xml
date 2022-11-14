@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Додано функціонал&#10;Виправлені деякі недоліки з попередньої версії&#10;Додані зміни у зв'язку з доданням функціоналу">
+    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Змінено файл FileUtils.java">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/menu/AddPlaneCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/menu/CalculateCapacityCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/menu/FindPlaneCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/menu/PrintAviacompanyCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/menu/PrintPlaneCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR4_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LR4_8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aviacompany/Aviacompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aviacompany/Aviacompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/AddPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/AddPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/CalculateCapacityCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/CalculateCapacityCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/DelPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/DelPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/FindPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/FindPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/LoadAviaCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/LoadAviaCompanyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/PrintAviaCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/PrintAviaCompanyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/PrintPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/PrintPlaneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/SaveAviaCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/SaveAviaCompanyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Airbus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Airbus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Boeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Boeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Douglas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Douglas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Mriya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Mriya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plane/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/plane/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utilities/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/PlaneUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utilities/PlaneUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +54,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
@@ -24,6 +65,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GXMjpiQx6X3Eep3haYaotrfn0D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,14 +80,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/Labs/Labs PP/LR3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Labs/Labs PP/LR3",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FindPlaneCommandTest.findPlaneCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LR4_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.menu" />
+      <option name="MAIN_CLASS_NAME" value="test.menu.FindPlaneCommandTest" />
+      <option name="METHOD_NAME" value="findPlaneCommandTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintAviacompanyCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LR4_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.menu" />
+      <option name="MAIN_CLASS_NAME" value="test.menu.PrintAviacompanyCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintAviacompanyCommandTest.findPlaneCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LR4_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.menu" />
+      <option name="MAIN_CLASS_NAME" value="test.menu.PrintAviacompanyCommandTest" />
+      <option name="METHOD_NAME" value="findPlaneCommandTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintPlaneCommandTest.printPlaneCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LR4_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.menu" />
+      <option name="MAIN_CLASS_NAME" value="test.menu.PrintPlaneCommandTest" />
+      <option name="METHOD_NAME" value="printPlaneCommandTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in LR4_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LR4_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.FindPlaneCommandTest.findPlaneCommandTest" />
+      <item itemvalue="JUnit.PrintAviacompanyCommandTest" />
+      <item itemvalue="JUnit.PrintAviacompanyCommandTest.findPlaneCommandTest" />
+      <item itemvalue="JUnit.PrintPlaneCommandTest.printPlaneCommandTest" />
+      <item itemvalue="JUnit.test in LR4_8" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test in LR4_8" />
+        <item itemvalue="JUnit.PrintAviacompanyCommandTest" />
+        <item itemvalue="JUnit.PrintAviacompanyCommandTest.findPlaneCommandTest" />
+        <item itemvalue="JUnit.PrintPlaneCommandTest.printPlaneCommandTest" />
+        <item itemvalue="JUnit.FindPlaneCommandTest.findPlaneCommandTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +203,9 @@
       <workItem from="1667031390807" duration="187000" />
       <workItem from="1667744318432" duration="21921000" />
       <workItem from="1667809224000" duration="1076000" />
-      <workItem from="1667810403042" duration="324000" />
+      <workItem from="1667810403042" duration="690000" />
+      <workItem from="1668369155001" duration="3241000" />
+      <workItem from="1668372914406" duration="7837000" />
     </task>
     <task id="LOCAL-00001" summary="Створено кістяк програми">
       <created>1666553800449</created>
@@ -86,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667771654427</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Змінено файл FileUtils.java">
+      <created>1667811011558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667811011558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +264,25 @@
     <MESSAGE value="Виправлені деякі помилки" />
     <MESSAGE value="Змінено функцію initHelp в класі Menu&#10;Всі HashMap замінено на Map або на Collection" />
     <MESSAGE value="Додано функціонал&#10;Виправлені деякі недоліки з попередньої версії&#10;Додані зміни у зв'язку з доданням функціоналу" />
-    <option name="LAST_COMMIT_MESSAGE" value="Додано функціонал&#10;Виправлені деякі недоліки з попередньої версії&#10;Додані зміни у зв'язку з доданням функціоналу" />
+    <MESSAGE value="Змінено файл FileUtils.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Змінено файл FileUtils.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="outData" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LR4_8$test_in_LR4_8.ic" NAME="test in LR4_8 Coverage Results" MODIFIED="1668384117968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LR4_8$PrintPlaneCommandTest_PrintPlaneCommandTest.ic" NAME="PrintPlaneCommandTest.PrintPlaneCommandTest Coverage Results" MODIFIED="1668374851198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.menu.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LR4_8$PrintPlaneCommandTest_printPlaneCommandTest.ic" NAME="PrintPlaneCommandTest.printPlaneCommandTest Coverage Results" MODIFIED="1668377778322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.menu.*</FILTER>
+    </SUITE>
   </component>
 </project>
