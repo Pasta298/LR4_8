@@ -21,6 +21,7 @@ public class PlaneUtils {
                 return new Mriya(name);
             }
             default -> {
+                LoggerUtils.logFatal("Incorrect type of plane, Airbus created instead!");
                 System.out.println("Incorrect type, created Airbus plane");
                 return new Airbus(name);
             }

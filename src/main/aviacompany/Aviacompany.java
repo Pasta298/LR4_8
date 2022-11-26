@@ -1,6 +1,8 @@
 package main.aviacompany;
 
+import main.menu.Menu;
 import main.plane.Plane;
+import main.utilities.LoggerUtils;
 import main.utilities.PlaneUtils;
 
 import java.io.Serial;
@@ -38,6 +40,7 @@ public class Aviacompany implements Serializable {
                         plane.getFlightDist(), plane.getFuelConsumption()
                 );
             }
+            LoggerUtils.logInfo(Menu.class, "Plane " + plane.getName() + " info printed");
         }
     }
     public void printPlanes() {

@@ -10,6 +10,7 @@ public class FileUtils {
             objectOutputStream.writeObject(aviacompany);
             System.out.println("Aviacompany saved successfully!");
         } catch (IOException e) {
+            LoggerUtils.logFatal(e.getMessage());
             System.out.println("Error while trying to save!");
         }
     }
@@ -19,6 +20,7 @@ public class FileUtils {
             aviacompany = (Aviacompany) objectInputStream.readObject();
             System.out.println("Aviacompany loaded successfully!");
         } catch (Exception e) {
+            LoggerUtils.logFatal("Error while trying to load: " + e.getMessage());
             System.out.println("Error while trying to load!");
         }
         return aviacompany;

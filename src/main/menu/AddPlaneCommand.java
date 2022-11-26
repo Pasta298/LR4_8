@@ -1,6 +1,7 @@
 package main.menu;
 
 import main.aviacompany.Aviacompany;
+import main.utilities.LoggerUtils;
 import main.utilities.PlaneUtils;
 
 import java.util.List;
@@ -24,6 +25,7 @@ public class AddPlaneCommand implements Command{
     public void execute(List<String> arguments) {
         if (arguments.size() == 2) {
             aviacompany.addPlane(PlaneUtils.createPlane(arguments.get(0), arguments.get(1)));
+            LoggerUtils.logInfo(Menu.class, "Plane added: " + arguments.get(1));
             System.out.println("Plane added!");
         } else {
             System.out.println("Incorrect arguments!");

@@ -1,6 +1,7 @@
 package main.menu;
 
 import main.aviacompany.Aviacompany;
+import main.utilities.LoggerUtils;
 
 import java.util.List;
 
@@ -22,6 +23,7 @@ public class DelPlaneCommand implements Command{
     @Override
     public void execute(List<String> arguments) {
         aviacompany.deletePlaneByName(arguments.get(0));
-        System.out.println("Plane deleted from main.test.aviacompany!");
+        LoggerUtils.logInfo(Menu.class, "Plane deleted: " + arguments.get(0));
+        System.out.println("Plane deleted from aviacompany!");
     }
 }

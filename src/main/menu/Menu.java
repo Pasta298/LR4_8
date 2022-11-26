@@ -1,6 +1,7 @@
 package main.menu;
 
 import main.aviacompany.Aviacompany;
+import main.utilities.LoggerUtils;
 
 import java.util.*;
 
@@ -63,6 +64,7 @@ public class Menu {
        } else if(command.equals("help")) {
            System.out.println(help);
        } else {
+           LoggerUtils.logInfo(Menu.class, "Incorrect command typed: " + command);
            System.out.println("Type another command!");
        }
     }
