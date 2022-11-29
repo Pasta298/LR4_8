@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Створення Unit-тестів&#10;Невеликі виправлення в самій програмі">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/EmailEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utilities/LoggerUtils.java" afterDir="false" />
+    <list default="true" id="06a0c07a-fd73-4f1e-9120-fb9a197ceb07" name="Changes" comment="Створення логеру">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR4_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LR4_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.tld" beforeDir="false" afterPath="$PROJECT_DIR$/pom.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/aviacompany/Aviacompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aviacompany/Aviacompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/menu/AddPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/AddPlaneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/menu/DelPlaneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/DelPlaneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/menu/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/ExitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utilities/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utilities/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utilities/PlaneUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utilities/PlaneUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +59,7 @@
       <recent name="C:\Users\Lenovo\Desktop\Labs\Labs PP\LR4_8" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FindPlaneCommandTest.findPlaneCommandTest">
     <configuration name="FindPlaneCommandTest.findPlaneCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LR4_8" />
       <extension name="coverage">
@@ -192,7 +176,7 @@
       <workItem from="1668369155001" duration="3241000" />
       <workItem from="1668372914406" duration="8936000" />
       <workItem from="1668792141017" duration="1409000" />
-      <workItem from="1669474582672" duration="4076000" />
+      <workItem from="1669474582672" duration="5372000" />
     </task>
     <task id="LOCAL-00001" summary="Створено кістяк програми">
       <created>1666553800449</created>
@@ -236,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668384422770</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Створення логеру">
+      <created>1669478767594</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669478767594</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +251,8 @@
     <MESSAGE value="Додано функціонал&#10;Виправлені деякі недоліки з попередньої версії&#10;Додані зміни у зв'язку з доданням функціоналу" />
     <MESSAGE value="Змінено файл FileUtils.java" />
     <MESSAGE value="Створення Unit-тестів&#10;Невеликі виправлення в самій програмі" />
-    <option name="LAST_COMMIT_MESSAGE" value="Створення Unit-тестів&#10;Невеликі виправлення в самій програмі" />
+    <MESSAGE value="Створення логеру" />
+    <option name="LAST_COMMIT_MESSAGE" value="Створення логеру" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

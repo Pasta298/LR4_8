@@ -28,6 +28,7 @@ public class AddPlaneCommand implements Command{
             LoggerUtils.logInfo(Menu.class, "Plane added: " + arguments.get(1));
             System.out.println("Plane added!");
         } else {
+            LoggerUtils.logFatal("Invalid arguments where typed!");
             System.out.println("Incorrect arguments!");
         }
     }
